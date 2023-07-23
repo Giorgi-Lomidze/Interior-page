@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&family=Noto+Serif+Khitan+Small+Script&family=Poppins:wght@700&family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  background: #181719;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 100px 400px);
+  gap: 650px;
+}
+
+#main {
+  width: 100%;
+  height: 70vh;
+  background-color: #181719;
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#footer {
+  width: 100%;
+  height: 20vh;
+  background-color: #181719;
+}
+
+.block1_for_header {
+  height: 10vh;
+  width: 200px;
+  background: #181719;
+  display: grid;
+  grid-template-columns: auto;
+  place-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.div1 {
+  width: 100px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: #181719;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: rgb(212, 210, 210);
+}
+.div1:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.div1:active {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  scale: 1;
+}
+
+.block2_for_header {
+  height: 10vh;
+  width: 700px;
+  background: #181719;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  place-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+img {
+  width: 750px;
+  height: 500px;
+}
+
+.img2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.textblock {
+  width: 650px;
+  height: 500px;
+  background-color: #181719;
+  display: grid;
+  grid-auto-flow: row;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-left: 50px;
+}
+
+.div2 {
+  width: 60px;
+  height: 30px;
+  background-color: #181719;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  color: rgb(212, 210, 210);
+  font-family: "Roboto", sans-serif;
+}
+.div2:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+  color: white;
+}
+.div2:active {
+  border-bottom: 3px solid white;
+  scale: 0.9;
+  color: white;
+}
+
+.div3 {
+  width: 80px;
+  height: 30px;
+  background-color: #181719;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  color: rgb(212, 210, 210);
+  font-family: "Roboto", sans-serif;
+}
+.div3:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+  color: white;
+}
+.div3:active {
+  border-bottom: 3px solid white;
+  scale: 0.9;
+  color: white;
+}
+
+.div4 {
+  width: 60px;
+  height: 30px;
+  color: rgb(212, 210, 210);
+  background-color: #181719;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.div4:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+  color: white;
+}
+.div4:active {
+  border-bottom: 3px solid white;
+  scale: 0.9;
+  color: white;
+}
+
+.div5 {
+  width: 80px;
+  height: 30px;
+  background-color: #181719;
+  display: grid;
+  place-content: center;
+  align-items: center;
+  color: rgb(212, 210, 210);
+  font-family: "Roboto", sans-serif;
+}
+.div5:hover {
+  border-bottom: 3px solid white;
+  cursor: pointer;
+  color: white;
+}
+.div5:active {
+  border-bottom: 3px solid white;
+  scale: 0.9;
+  color: white;
+}
+
+.footerblock {
+  width: 320px;
+  height: 160px;
+  position: absolute;
+  left: 1100px;
+  top: 500px;
+  box-shadow: 0px 10px 2px 2px black;
+  background-color: rgb(27, 27, 27);
+}
+.footertext {
+  width: 300px;
+  height: 80px;
+  background-color: #181719;
+  position: relative;
+  top: 60px;
+  left: 40%;
+  padding-top: 50px;
+  padding-left: 15px;
+  color: gray;
+}
+
+.div6 {
+  width: 700px;
+  height: 100px;
+  background-color: #181719;
+  font-size: 35px;
+  padding: 25px;
+  color: white;
+}
+.div7 {
+  width: 700px;
+  height: 150px;
+  background-color: #181719;
+  padding: 25px;
+  font-size: 20px;
+  color: white;
+  font-family: "Noto Sans Cypro Minoan", sans-serif;
+}
+.div8 {
+  width: 700px;
+  height: 100px;
+  background-color: #181719;
+  display: grid;
+  place-content: start;
+  align-items: center;
+  grid-auto-flow: column;
+  gap: 10px;
+  padding: 25px;
+  font-size: 15px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.div8:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.div8:active {
+  text-decoration: underline;
+  scale: 0.9;
+}
+
+.headerblock_for_footerblock {
+  width: 300px;
+  height: 80px;
+  background: rgb(27, 27, 27);
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.textblock_for_footerblock {
+  width: 300px;
+  height: 70px;
+  background-color: rgb(27, 27, 27);
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
+  font-family: "Noto Serif Khitan Small Script", sans-serif;
+}
+
+.fototext {
+  width: 120px;
+  height: 55px;
+  background-color: rgb(27, 27, 27);
+  line-height: 25px;
+}
+.divblock {
+  width: 200px;
+  height: 60px;
+  display: grid;
+  place-content: start;
+  grid-auto-flow: column;
+  align-items: start;
+  gap: 20px;
+}
+.span1 {
+  text-decoration: underline;
+}
+.span1:hover {
+  color: rgb(201, 201, 248);
+  cursor: pointer;
+}
+.span1:active {
+  color: rgb(168, 168, 250);
+  scale: 0.9;
+}
+
+.div-i {
+  width: 40px;
+  height: 30px;
+  background-color: #181719;
+  display: grid;
+  grid-auto-flow: row;
+  place-content: center;
+  align-items: center;
+  color: white;
+}
+
+.span2 {
+  font-size: 16px;
+  color: rgb(235, 233, 233);
+}
+.span3 {
+  font-size: 14px;
+  color: gray;
+}
